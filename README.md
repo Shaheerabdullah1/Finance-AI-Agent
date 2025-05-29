@@ -55,6 +55,20 @@ OPENAI_API_KEY =your_openai_key
 ```bash
 python financial_agent.py
 ````
+### 6. Connect to Phi Dashboard (Advanced)
+If you're using the Phi Dashboard, you can integrate your local agents:
+
+Make sure your app is running with:
+```bash
+python playground.py
+```
+This will expose the API at:
+````bash
+http://localhost:7777
+````
+Go to the Phi Dashboard and click on Endpoint and select your endpoint (name of your endpoint).
+
+You can now interact with your local agents via the official Phi web interface, using your custom FastAPI backend!
 
 Playground Screenshot
 ![Playground Screenshot](Screenshot.png)
