@@ -30,7 +30,6 @@ cd Finance-AI-Agent
 
 ### 2. Create a Virtual Environment (Optional but Recommended)
 
-# Create virtual environment
 ```bash
 python -m venv venv
 # Activate it
@@ -45,10 +44,18 @@ source venv/bin/activate
 pip install -r requirements.txt
 ````
 
-4. Configure Environment Variables
+### 4. Configure Environment Variables
 Create a .env file in the root directory and add your API keys:
 ```bash
 PHI_API_KEY=your_phi_api_key
 GROQ_API_KEY=your_groq_api_key
 OPENAI_API_KEY =your_openai_key
 ```
+### 5. Run the financial_agent.py
+```bash
+python financial_agent.py
+````
+
+Playground Screenshot
+![Playground Screenshot](assets/screenshot.png)
+
