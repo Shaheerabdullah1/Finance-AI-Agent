@@ -57,5 +57,5 @@ python financial_agent.py
 ````
 
 Playground Screenshot
-![Playground Screenshot](assets/screenshot.png)
+![Playground Screenshot](Screenshot.png)
 
