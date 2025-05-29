@@ -1,0 +1,4 @@
+# Ignore modules and build directories
+.env
+myenv
+__pycache__/
